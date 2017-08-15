@@ -403,7 +403,7 @@ for ($j = 0; $j < count($getLeads); $j++) {
         }
         else if ($filtered_fields[$i] == 'source_id' && $getLeads[$j]->source_id == 0)//Form Name remote
         {
-            $getValue = 'Remote form: '.$lead_content['Form Name'];
+            $getValue = $lead_content['Form Name'];
         }
 
           else if ($filtered_fields[$i] == 'lead_status_id')//Lead Status
