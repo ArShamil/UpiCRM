@@ -115,12 +115,13 @@ $table_prefix = $wpdb->prefix;
                 <?php for($i=0;$i<count($fields);$i++){?>
                 <li style="list-style:none;"><input type="checkbox" name="fields[]" class="" value="<?php echo ($fields[$i]->field_id);?>">&nbsp;<?php echo ($fields[$i]->field_name);?></li>
                 <?php }?>
-                <li style="list-style:none;"><input type="checkbox" name="fields[]" class="" value="user_id">&nbsp;Assigned To</li>
-                <li style="list-style:none;"><input type="checkbox" name="fields[]" class="" value="lead_status_id">&nbsp;Lead Status</li>
                 <li style="list-style:none;"><input type="checkbox" name="fields[]" class="" value="lead_id">&nbsp;ID</li>
-                <li style="list-style:none;"><input type="checkbox" name="fields[]" class="" value="lead_management_comment">&nbsp;Lead Managment comment</li>
                 <li style="list-style:none;"><input type="checkbox" name="fields[]" class="" value="time">&nbsp;Timestamp</li>
                 <li style="list-style:none;"><input type="checkbox" name="fields[]" class="" value="user_referer">&nbsp;Referer</li>
+                <li style="list-style:none;"><input type="checkbox" name="fields[]" class="" value="source_id">&nbsp;Form Name</li>
+                <li style="list-style:none;"><input type="checkbox" name="fields[]" class="" value="user_id">&nbsp;Assigned To</li>
+                <li style="list-style:none;"><input type="checkbox" name="fields[]" class="" value="lead_status_id">&nbsp;Lead Status</li>
+                <li style="list-style:none;"><input type="checkbox" name="fields[]" class="" value="lead_management_comment">&nbsp;Lead Managment comment</li>
                 <li style="list-style:none;"><input type="checkbox" name="fields[]" class="" value="utm_source">&nbsp;UTM Source</li>
                 <li style="list-style:none;"><input type="checkbox" name="fields[]" class="" value="utm_medium">&nbsp;UTM Medium</li>
                 <li style="list-style:none;"><input type="checkbox" name="fields[]" class="" value="utm_term">&nbsp;UTM Term</li>
